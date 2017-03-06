@@ -1,10 +1,6 @@
 language: r
 cache: packages
 
-env:
-  global:
-    - secure: "ef3e6095506361045ac1ddbf2c15ab5ea7ead546"
-
 before_script:
   - chmod +x ./_build.sh
   - chmod +x ./_deploy.sh
