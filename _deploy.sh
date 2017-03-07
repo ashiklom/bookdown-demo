@@ -8,7 +8,7 @@ set -e
 git config --global user.email "alexey.shiklomanov@gmail.com"
 git config --global user.name "Alexey Shiklomanov"
 
-git clone https://${GITHUB_PAT}@github.com/bookdown-demo-render.git book-output
+git clone https://${GITHUB_PAT}@github.com/ashiklom/bookdown-demo-render.git book-output
 cd book-output
 cp -r ../_book/* ./
 git add --all *
